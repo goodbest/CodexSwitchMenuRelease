@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>CodexSwitchMenu</title>
+        <item>
+            <title>4.5.0</title>
+            <pubDate>Sun, 18 Oct 2026 08:39:43 +0800</pubDate>
+            <link>https://github.com/goodbest/CodexSwitchMenuRelease</link>
+            <sparkle:version>65</sparkle:version>
+            <sparkle:shortVersionString>4.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[# CodexSwitchMenu 4.5.0
+
+- Added signed in-app update checks and installation using Sparkle.
+- Automatic checks run once a day. Automatic installation is optional and off by default.
+- Updating restarts only the menu-bar app and waits for account operations to finish.
+- Universal build for Apple Silicon and Intel, macOS 13 or later.
+- Includes the Goal recovery fixes from 4.4.1; that feature remains experimental.
+
+First installation is manual because older builds do not contain an updater. This
+build is ad-hoc signed, not notarized by Apple; see the repository's installation notes.
+]]></description>
+            <enclosure url="https://github.com/goodbest/CodexSwitchMenuRelease/releases/download/v4.5.0/CodexSwitchMenu-4.5.0-universal.zip" length="3145283" type="application/octet-stream" sparkle:edSignature="bEv00EvybGbiHs5q+46o0P4jkU/zH2kJnooa+vNgepGFpco9qdg0izYeak8aDPO0FZn+mBbuxylXac2a1ndDCQ=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: Nb3p4w4NVHrLlcrK0/6te9rrnw7wvwSP9bfoBJfA/xTaBSAXu/1tMiqwiKKtALH+WkgbSRRhH/pVif3vM+RECw==
+length: 1825
+-->
